@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/category/category",
+    "pages/car/car",
+    "pages/fileMe/fileMe"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "美丽说",
+    "navigationBarBackgroundColor": "#ff9854",
+    "backgroundColor": "#ff9854"
+  },
+  "tabBar": {
+    "selectedColor": "#ff9854",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/img/tabbar/tab_home.png",
+        "selectedIconPath": "static/img/tabbar/tab_home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "static/img/tabbar/tab_favor.png",
+        "selectedIconPath": "static/img/tabbar/tab_favor_active.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "iconPath": "static/img/tabbar/tab_order.png",
+        "selectedIconPath": "static/img/tabbar/tab_order_active.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/fileMe/fileMe",
+        "iconPath": "static/img/tabbar/tab_order.png",
+        "selectedIconPath": "static/img/tabbar/tab_order_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

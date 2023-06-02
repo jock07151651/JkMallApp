@@ -1,0 +1,1 @@
+<view class="home"> home <view class="banner">{{a}}</view><view class="remmends">{{b}}</view></view>
